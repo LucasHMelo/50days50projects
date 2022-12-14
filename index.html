@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Expanding Cards</title>
+    <title>Progress steps</title>
 </head>
 <body>
     <main>
-        <div class="lucas active"><img src="https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
-        <div class="box"><img src="https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
-        <div class="box"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" alt=""></div>
-        <div class="box"><img src="https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt=""></div>
-        <div class="box"><img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
+        <div class="row">
+            <div class="progress-ball active">1</div>
+            <div class="progress-line"></div>
+            <div class="progress-ball">2</div>
+            <div class="progress-line"></div>
+            <div class="progress-ball">3</div>
+            <div class="progress-line"></div>
+            <div class="progress-ball">4</div>
+        </div>
+        <div class="row">
+            <button class="btn" id="prev">Prev</button>
+            <button class="btn" id="next">Next</button>
+        </div>
+
     </main>
     <script src="script.js"></script>
 </body>
