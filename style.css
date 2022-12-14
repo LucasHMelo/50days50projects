@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+main {
+  display: flex;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+main {
+  width: 90vw;
+}
+
+.box {
+  height: 80vh;
+  cursor: pointer;
+  border-radius: 50px;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: all 700ms ease-in;
+}
+
+img {
+  border-radius: 50px;
+  margin: 1rem;
+}
+
+.box.active {
+  flex: 50;
+}
